@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Lato:ital,wght@0,100;1,100;1,300;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 18px;
+}
+
+#hero {
+  height: 80vh;
+  width: 100%;
+  background: url("images/background/eng.svg") no-repeat center bottom / cover;
+  background-size: 50%;
+  background-position: 100% 50%;
+  color: whitesmoke;
+}
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#hero .info h1 {
+  font-size: 4rem;
+  color: rgba(54, 73, 197, 0.815);
+  margin-bottom: 1rem;
+}
+#hero .info p {
+  font-size: 2.4rem;
+  color: rgb(69, 66, 66);
+  max-width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}

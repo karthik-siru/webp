@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Lato:ital,wght@0,100;1,100;1,300;1,400;1,700&display=swap");
+body {
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+#mem h1 {
+  width: 15vw;
+  margin: 10px auto;
+}
+
+.card-body {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+.card-title {
+  font-size: larger;
+  font-weight: bolder;
+}
