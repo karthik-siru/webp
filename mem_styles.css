@@ -10,11 +10,19 @@ body {
   margin: 10px auto;
 }
 
+.col {
+  height: 70vh;
+}
+
 .card-body {
   font-family: "Lato", sans-serif;
   font-weight: bold;
+  height: 30%;
 }
 .card-title {
   font-size: larger;
   font-weight: bolder;
+}
+.extra_img {
+  height: 100px;
 }
